@@ -1,0 +1,19 @@
+
+version: '3'
+services:
+  nacos:
+    image: nacos/nacos-server:latest
+    container_name: nacos
+    restart: always
+    ports:
+      - "8848:8848"
+      - "8080:8080"
+      - "9848:9848"
+    environment:
+      - MODE=standalone
+      - PREFER_HOST_MODE=hostname
+      - NACOS_AUTH_TOKEN=v8mUgZ4kuqpcF9uIfSsfRtWq5YE30mbWcJjJXhx254w=
+      - NACOS_AUTH_IDENTITY_KEY=nacoskey
+      - NACOS_AUTH_IDENTITY_VALUE=nacosvalue
+    volumes:
+      - ./data:/home/nacos/data
