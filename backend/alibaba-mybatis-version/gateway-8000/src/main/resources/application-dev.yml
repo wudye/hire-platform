@@ -1,0 +1,29 @@
+spring:
+  config:
+    import:
+      - nacos:alibaba-mybatis-version.properties?refreshEnabled=true
+
+
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.80.128:8848
+      config:
+        server-addr: 192.168.80.128:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: userService
+          uri: lb://user-service
+          predicates:
+            - Path=/u/**
+        - id: companyService
+          uri: lb://company-service
+          predicates:
+            - Path=/c/**
+
+
+

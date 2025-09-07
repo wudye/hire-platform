@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: gateway-service
+
+server:
+  port: 8000
+  tomcat:
+    uri-encoding: UTF-8
+    max-swallow-size: -1
+
+#  main:
+#    web-application-type: reactive

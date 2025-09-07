@@ -1,0 +1,20 @@
+server:
+  port: 6001
+  tomcat:
+    uri-encoding: UTF-8
+    max-swallow-size: -1
+
+spring:
+  application:
+    name:  company-service
+  profiles:
+    active: dev
+
+
+logging:
+  level:
+    root: info
+
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/*.xml

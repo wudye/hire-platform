@@ -1,0 +1,13 @@
+server:
+  port: 6001
+  tomcat:
+    uri-encoding: UTF-8
+    max-swallow-size: -1
+
+spring:
+    application:
+      name: service-company
+#    profiles:
+#      active: dev
+#    config:
+#      import:  "optional:configserver:localhost:8002"

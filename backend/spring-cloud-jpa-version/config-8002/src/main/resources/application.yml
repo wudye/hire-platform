@@ -1,0 +1,57 @@
+management:
+  zipkin:
+    tracing:
+      endpoint: http://192.168.80.128:9411/api/v2/spans
+
+    sampling:
+      probability: ${SAMPLING_PROBABILITY:1.0}
+
+
+server:
+  port: 8002
+
+spring:
+  application:
+    name: config-server
+  security:
+    user:
+      name: admin
+      password: 12345678
+  profiles:
+    active: native
+#    active: git
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/config-repo
+#          search-locations: file:D:/config-repo
+#      server:
+#        git:
+#          uri: https://github.com/your-username/config-repo.git  # GitHub 仓库地址
+#          search-paths: '{application}'  # 可选：指定子目录
+#          username: your-username        # 可选：GitHub 用户名
+#          password: your-pat-or-token   # 可选：PAT 或密码（私有仓库需要）
+#          default-label: main
+#          clone-on-start: true          # 可选：启动时克隆仓库
+        encrypt:
+          enabled: false
+
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    healthcheck:
+      enabled: true
+  instance:
+    instance-id: ${spring.application.name}:${server.port}
+#  instance:
+#    preferIpAddress: true
+
+#
+
+
+encrypt:
+  key: "45D81EC1EF61DF9AD8D3E5BB397F9"

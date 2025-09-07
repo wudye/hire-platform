@@ -1,0 +1,42 @@
+server:
+  port: 8761
+
+spring:
+    application:
+      name: eureka-server
+eureka:
+    instance:
+      hostname: localhost
+    client:
+      registerWithEureka: false
+      fetchRegistry: false
+      serviceUrl:
+        defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+  endpoint:
+    health:
+      show-details: always
+  zipkin:
+    tracing:
+      endpoint:  http://192.168.80.128:9411/api/v2/spans
+    sampling:
+      probability: 1.0
+
+#  # Swagger UI
+
+#
+#  # Monitoring Properties (Actuator Prometheus Endpoint)
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /api-docs
+
+
+#  management.endpoints.web.exposure.include=prometheus

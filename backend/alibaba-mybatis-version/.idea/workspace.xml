@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="893d0e78-c09e-43af-a7cc-0f91ba8ac519" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-8000/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-8000/src/main/java/com/mwu/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-8000/src/main/java/com/mwu/controller/HellloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-8000/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-8000/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-8000/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-common/src/main/java/com/mwu/IMOOCJSONResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-common/src/main/java/com/mwu/ResponseStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/mwu/pojo/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/mwu/pojo/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/mwu/pojo/ChatMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/mwu/pojo/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/mwu/pojo/CompanyPhoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/mwu/pojo/DataDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/mwu/pojo/Industry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/mwu/pojo/Interview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/mwu/pojo/Job.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/mwu/pojo/JobType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/mwu/pojo/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/mwu/pojo/ReportJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/mwu/pojo/Resume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/mwu/pojo/ResumeEducation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/mwu/pojo/ResumeExpect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/mwu/pojo/ResumeProjectExp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/mwu/pojo/ResumeWorkExp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/mwu/pojo/SysParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/mwu/pojo/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hire-pojo/src/main/java/com/mwu/pojo/test/Stu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-company-6001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-company-6001/src/main/java/com/mwu/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-company-6001/src/main/java/com/mwu/controller/HellloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-company-6001/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-company-6001/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-company-6001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user-7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user-7001/src/main/java/com/mwu/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user-7001/src/main/java/com/mwu/controller/HellloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user-7001/src/main/java/com/mwu/mapper/StuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user-7001/src/main/java/com/mwu/service/StuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user-7001/src/main/java/com/mwu/service/impl/StuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user-7001/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user-7001/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user-7001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user-7001/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user-7001/src/main/resources/mapper/StuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hire-jpa/gateway-8000/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hire-mybatis/gateway-8000/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JPA.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../JPA.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hire-jpa/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../hire-jpa/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hire-jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../hire-jpa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hire-mybatis/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../hire-mybatis/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hire-mybatis/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../hire-mybatis/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hire-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../hire-mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hire-mybatis/sercice-company-6001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../hire-mybatis/sercice-company-6001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hire-mybatis/sercice-company-6001/src/main/java/com/mwu/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../hire-mybatis/sercice-company-6001/src/main/java/com/mwu/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hire-mybatis/sercice-company-6001/src/main/java/com/mwu/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../hire-mybatis/sercice-company-6001/src/main/java/com/mwu/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hire-mybatis/sercice-company-6001/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../hire-mybatis/sercice-company-6001/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hire-mybatis/sercice-company-6001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../hire-mybatis/sercice-company-6001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hire-mybatis/service-user-7001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../hire-mybatis/service-user-7001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hire-mybatis/service-user-7001/src/main/java/com/mwu/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../hire-mybatis/service-user-7001/src/main/java/com/mwu/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hire-mybatis/service-user-7001/src/main/java/com/mwu/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../hire-mybatis/service-user-7001/src/main/java/com/mwu/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hire-mybatis/service-user-7001/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../hire-mybatis/service-user-7001/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hire-mybatis/service-user-7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../hire-mybatis/service-user-7001/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "wudye"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:wudye/hire-platform.git",
+    "accountId": "20f9cd33-45a3-439c-babf-d1143e892b95"
+  }
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\apache-maven-3.9.11" />
+        <option name="localRepository" value="D:\mavenrepo" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.9.11\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="32K4i89DQlHoNs8zIsdfyCCAqUP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.6001.executor": "Run",
+    "Application.7001.executor": "Run",
+    "Application.8000.executor": "Run",
+    "Maven.alibaba-mybatis-version [clean].executor": "Run",
+    "Maven.alibaba-mybatis-version [install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.Application.executor": "Run",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/hire/backend/alibaba-mybatis-version/gateway-8000/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/hire/backend/alibaba-mybatis-version/src/main/java/com/mwu/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mwu" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\hire\backend\alibaba-mybatis-version\gateway-8000\src\main\resources" />
+      <recent name="E:\hire\backend\alibaba-mybatis-version\gateway-8000\src\main\java\com\mwu" />
+      <recent name="E:\hire\backend\alibaba-mybatis-version\service-company-6001\src\main\resources" />
+      <recent name="E:\hire\backend\alibaba-mybatis-version\service-company-6001\src\main\java" />
+      <recent name="E:\hire\backend\alibaba-mybatis-version\service-user-7001\src\main\resources\mapper" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mwu" />
+      <recent name="com.mwu.service.impl" />
+      <recent name="com.mwu.service" />
+      <recent name="com.mwu.mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.7001">
+    <configuration name="6001" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.mwu.Application" />
+      <module name="service-company-6001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="7001" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.mwu.Application" />
+      <module name="service-user-7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="8000" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.mwu.Application" />
+      <module name="gateway-8000" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.8000" />
+      <item itemvalue="Application.6001" />
+      <item itemvalue="Application.7001" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.27812.49" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.27812.49" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="893d0e78-c09e-43af-a7cc-0f91ba8ac519" name="Changes" comment="" />
+      <created>1757156053908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757156053908</updated>
+      <workItem from="1757156055047" duration="10561000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mwu/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
